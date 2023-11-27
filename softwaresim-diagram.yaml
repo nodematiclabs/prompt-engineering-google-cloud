@@ -1,0 +1,541 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 625
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 625
+  horizontalOffset: -112
+  verticalOffset: 11
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight ConnectoreimNc
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 660
+      y: 359.52
+    targetPoint:
+      x: 586
+      y: 348.44
+    sourceID: PaLM AIBxnBS
+    targetID: Vertex AIT4Upt
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Dashed Straight ConnectorSeaSB
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 286
+      y: 342.44
+    targetPoint:
+      x: 212
+      y: 350.56
+    sourceID: Vertex AIT4Upt
+    targetID: FirestoreJ6nMC
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight ConnectorMmJI9
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 436
+      y: 448
+    targetPoint:
+      x: 436
+      y: 376
+    sourceID: Google Cloud PlatformPfTFh
+    targetID: Vertex AIT4Upt
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Generative AI Studio</div><div
+        class="c-short-description">Sandbox for prompt engineering</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AIT4Upt
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Sandbox for prompt engineering
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Generative AI Studio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 436
+    offsetY: 326
+    zIndex: 0
+    inEdges:
+      - Straight ConnectoreimNc
+      - Dashed Straight ConnectorMmJI9
+    outEdges:
+      - Dashed Straight ConnectorSeaSB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #127E8A; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>PaLM
+        AI</div></div><hr class="c-underrule" style="background-color:
+        #127E8A"></div>'
+    id: PaLM AIBxnBS
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PaLM AI
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PaLM AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PaLM AI
+      editableName: PaLM AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: PaLM AI
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2__044448_vb2ppg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png
+      color: "#127E8A"
+      controlText: PaLM AI
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 710
+    offsetY: 367
+    zIndex: 1
+    outEdges:
+      - Straight ConnectoreimNc
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_Black_87_saom5b.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_x1bnu1.png);"></div><div
+        class="c-text"><div class="c-title">Firestore</div><div
+        class="c-short-description">Storing, syncing, and querying prompt
+        engineering data and results</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: FirestoreJ6nMC
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Firestore
+        shortDescription: Storing, syncing, and querying prompt engineering data and results
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Firestore
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Firestore
+      editableName: Firestore
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Firestore
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_x1bnu1.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore__044448_bcoxbo.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/firestore_Black_87_saom5b.png
+      color: "#3871e0"
+      controlText: Firestore
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 62
+    offsetY: 367
+    zIndex: 3
+    inEdges:
+      - Dashed Straight ConnectorSeaSB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2_Black_87_t3ijkn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2_k0j2om.png);"></div><div
+        class="c-text"><div class="c-title">Prompt Engineering
+        Practices</div><div class="c-short-description">Published best practices
+        across various use cases (summarization, classification,
+        extraction,...)</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud PlatformPfTFh
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Platform
+        shortDescription: Published best practices across various use cases
+          (summarization, classification, extraction,...)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Platform
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Platform
+      editableName: Prompt Engineering Practices
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Platform
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2_k0j2om.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2__044448_wcvymi.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1686897630/sds_logos/Google_Cloud_Platform_V2_Black_87_t3ijkn.png
+      color: "#3871e0"
+      controlText: Google Cloud Platform
+      selectedDynamicsView: 0
+    width: 377.99999999999994
+    height: 100
+    offsetX: 436
+    offsetY: 498
+    zIndex: 5
+    outEdges:
+      - Dashed Straight ConnectorMmJI9
+selectedItems:
+  width: 0
+  height: 0

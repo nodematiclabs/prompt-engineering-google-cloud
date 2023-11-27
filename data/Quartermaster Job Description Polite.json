@@ -1,0 +1,25 @@
+{
+  "title": "Quartermaster Job Description Polite",
+  "description": "",
+  "parameters": {
+    "candidateCount": 1,
+    "groundingPromptConfig": {
+      "disabled": true,
+      "groundingConfig": {
+        "sources": [
+          {
+            "type": "ENTERPRISE"
+          }
+        ]
+      }
+    },
+    "stopSequences": [],
+    "temperature": 0.2,
+    "tokenLimits": 1024,
+    "topK": 40,
+    "topP": 0.8
+  },
+  "type": "freeform",
+  "prompt": "Please write a job description for a quartermaster, in the style of a pirate",
+  "model": "text-bison"
+}
